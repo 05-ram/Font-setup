@@ -1,0 +1,99 @@
+/*nav bar*/
+.nav-bar {
+    background-color: #c5aa6a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 80px;
+}
+
+.nav-bar .navbar-lbl {
+    position: absolute;
+    text-indent: -9999px;
+}
+
+.nav-bar input {
+    height: 46px;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+}
+
+.nav-bar input:focus-visible {
+    outline: none;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nav-bar ul li {
+    list-style: none;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+
+/*About*/
+.about-page {
+    h2 {
+        color: #00539CFF;
+    }
+}
+
+/*footer*/
+.footer-page {
+    background-color: #404040;
+    color: #ffffff;
+    padding: 12px;
+    height: 60px;
+
+    span {
+        font-size: 22px;
+    }
+}
+
+/*post page*/
+.post-page {
+    color: #00539CFF;
+    max-height: 500px;
+    overflow-y: auto;
+
+    span {
+        color: #000000;
+    }
+
+    .bdr {
+        border-bottom: 1px solid #c5aa6a;
+        padding: 20px;
+    }
+}
+
+/*new post*/
+.new-post {
+    padding: 20px;
+
+    label {
+        color: #00539CFF;
+    }
+
+    input {
+        height: 54px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.bck-btn {
+    background-color: transparent;
+    color: #000000;
+    margin-top: 20px;
+    border: 1px solid;
+}
