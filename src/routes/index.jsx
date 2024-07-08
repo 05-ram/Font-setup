@@ -67,6 +67,7 @@ const RouterData = () => {
         }
     ])
     return strictRoute;
+    
 }
 
 export default RouterData
